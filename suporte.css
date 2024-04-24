@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "MuseoModerno", sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.esquerda {
+  background: linear-gradient(120deg, rgb(6, 6, 90), #2f3faa, hwb(232 47% 14%));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.esquerda form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 200px;
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18%;
+  color: white;
+  font-weight: bold;
+}
+
+.container form input {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  width: 92.5%;
+}
+
+.container form input:focus {
+  outline: none;
+}
+
+.container form textarea {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.container form textarea:focus {
+  outline: none;
+}
+
+.button input {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+}
+
+.button input:hover {
+  cursor: pointer;
+  background-color: #0056b3;
+}
+
+@media screen and (min-width: 1920px) {
+  .direito img {
+    width: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+  }
+}
