@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/suporte.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="esquerda">
+        <div class="contato">
+          <h1>Contate-nos</h1>
+        </div>
+
+        <form action="suporte.php" method="post">
+          <input type="text" name="nome" placeholder="nome" />
+          <input type="email"  name="email" placeholder="email" />
+          <textarea
+            name="mensagem"
+            id="campoText"
+            cols="30"
+            rows="10"
+            placeholder="mensagem"
+          ></textarea>
+
+          <div class="button">
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
+
+      <div class="direito">
+        <img src="assets/img/suporte.png" alt="suporte" />
+      </div>
+    </div>
+  </body>
+</html>
